@@ -1,13 +1,12 @@
-{********************************************************************************}
-{                                                                                }
-{       Temperature Demo                                                         }
-{       Class operators demonstration                                            }
-{                                                                                }
-{       Copyright (c) 2004 http://chuacw.hn.org/chuacw                           }
-{       Read article at http://chuacw.hn.org/chuacw/archive/2004/04/29/464.aspx  }
-{       More articles coming...                                                  }
-{       Read articles in category: http://chuacw.hn.org/chuacw/category/48.aspx  }
-{********************************************************************************}
+{**************************************************************************************}
+{                                                                                      }
+{       Temperature Demo                                                               }
+{       Class operators demonstration                                                  }
+{                                                                                      }
+{       Copyright (c) 2004-2014 Chua Chee Wee                                          }
+{       Read article at http://chuacw.ath.cx/blogs/chuacw/archive/2004/04/29/464.aspx  }
+{       http://chuacw.ath.cx/blogs/chuacw/archive/tags/Delphi/default.aspx             }
+{**************************************************************************************}
 
 unit Temperature;
 interface
@@ -28,7 +27,7 @@ type
 
     class operator  Subtract(Left, Right: Kelvin): Kelvin;
 
-    function ToString: string; //override;
+    function ToString: string;
   end;
 
   Fahrenheit = packed record
@@ -51,7 +50,7 @@ type
 
     class operator  Subtract(Left, Right: Fahrenheit): Fahrenheit;
 
-    function ToString: System.String; overload; //override;
+    function ToString: string;
 
   end;
 
@@ -75,7 +74,7 @@ type
     class operator Implicit(AValue: string): Celsius;
 
     class operator  Subtract(Left, Right: Celsius): Celsius;
-    function ToString: System.String; overload; //override;
+    function ToString: string;
 
   end;
 
@@ -250,43 +249,3 @@ begin
 end;
 
 end.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{********************************************************************************}
-{                                                                                }
-{       Temperature Demo                                                         }
-{       Class operators demonstration                                            }
-{                                                                                }
-{       Copyright (c) 2004 http://chuacw.hn.org/chuacw                           }
-{       Read article at http://chuacw.hn.org/chuacw/archive/2004/04/29/464.aspx  }
-{       More articles coming...                                                  }
-{       Read articles in category: http://chuacw.hn.org/chuacw/category/48.aspx  }
-{********************************************************************************}
-

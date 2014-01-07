@@ -1,13 +1,12 @@
-{********************************************************************************}
-{                                                                                }
-{       Temperature Demo                                                         }
-{       Class operators demonstration                                            }
-{                                                                                }
-{       Copyright (c) 2004 http://chuacw.hn.org/chuacw                           }
-{       Read article at http://chuacw.hn.org/chuacw/archive/2004/04/29/464.aspx  }
-{       More articles coming...                                                  }
-{       Read articles in category: http://chuacw.hn.org/chuacw/category/48.aspx  }
-{********************************************************************************}
+{**************************************************************************************}
+{                                                                                      }
+{       Temperature Demo                                                               }
+{       Class operators demonstration                                                  }
+{                                                                                      }
+{       Copyright (c) 2004-2014 Chua Chee Wee                                          }
+{       Read article at http://chuacw.ath.cx/blogs/chuacw/archive/2004/04/29/464.aspx  }
+{       http://chuacw.ath.cx/blogs/chuacw/archive/tags/Delphi/default.aspx             }
+{**************************************************************************************}
 
 program TestTemp;
 
@@ -46,43 +45,3 @@ begin
   C := K - F;
   WriteLn(Format('Subtracting %s Fahrenheit from %s Kelvin and display in Celsius: %s', [F.ToString, K.ToString, C.ToString]));
 end.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{********************************************************************************}
-{                                                                                }
-{       Temperature Demo                                                         }
-{       Class operators demonstration                                            }
-{                                                                                }
-{       Copyright (c) 2004 http://chuacw.hn.org/chuacw                           }
-{       Read article at http://chuacw.hn.org/chuacw/archive/2004/04/29/464.aspx  }
-{       More articles coming...                                                  }
-{       Read articles in category: http://chuacw.hn.org/chuacw/category/48.aspx  }
-{********************************************************************************}
-
